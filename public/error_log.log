@@ -1,0 +1,204 @@
+[19-Mar-2025 13:30:53 Europe/Berlin] SQLSTATE[HY000] [2002] Nem hozható létre kapcsolat, mert a célszámítógép már visszautasította a kapcsolatot
+[19-Mar-2025 13:30:53 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Database connection error. in C:\xampp\htdocs\school-oop\app\Database\Database.php:36
+Stack trace:
+#0 C:\xampp\htdocs\school-oop\app\Database\Database.php(43): App\Database\Database->__construct(Array)
+#1 C:\xampp\htdocs\school-oop\app\Models\Model.php(17): App\Database\Database::getInstance()
+#2 C:\xampp\htdocs\school-oop\app\Models\Subject.php(13): App\Models\Model->__construct()
+#3 C:\xampp\htdocs\school-oop\app\Controllers\SubjectController.php(10): App\Models\Subject->__construct()
+#4 C:\xampp\htdocs\school-oop\app\Routing\Router.php(49): App\Controllers\SubjectController->__construct()
+#5 C:\xampp\htdocs\school-oop\app\Routing\Router.php(26): App\Routing\Router->handleGetRequests('/subjects')
+#6 C:\xampp\htdocs\school-oop\app\Routing\Router.php(19): App\Routing\Router->dispatch('GET', '/subjects')
+#7 C:\xampp\htdocs\school-oop\public\index.php(24): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\school-oop\app\Database\Database.php on line 36
+[09-Apr-2025 14:15:26 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+[30-Apr-2025 22:35:50 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'code' in 'order clause'
+[30-Apr-2025 22:35:51 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'code' in 'order clause'
+[01-May-2025 04:14:09 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'code' in 'order clause'
+[01-May-2025 04:14:10 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'code' in 'order clause'
+[01-May-2025 04:15:28 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'code' in 'order clause'
+[01-May-2025 04:18:45 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'code' in 'order clause'
+[01-May-2025 04:19:21 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:19:27 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:19:32 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:24:07 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:24:12 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:27:43 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:27:43 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:27:43 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:27:43 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:27:43 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:27:44 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:27:44 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:27:45 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:27:45 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:27:45 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:27:46 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:27:48 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:27:53 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ClassModel::$year of type ?int in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php:24
+Stack trace:
+#0 I:\sulis\webp\2025.04.30(2)\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 I:\sulis\webp\2025.04.30(2)\app\Controllers\ClassController.php(16): App\Models\Model->all(Array)
+#2 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(57): App\Controllers\ClassController->index()
+#3 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/classes')
+#4 I:\sulis\webp\2025.04.30(2)\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/classes')
+#5 I:\sulis\webp\2025.04.30(2)\public\index.php(10): App\Routing\Router->handle()
+#6 {main}
+  thrown in I:\sulis\webp\2025.04.30(2)\app\Models\Model.php on line 24
+[01-May-2025 04:28:34 Europe/Berlin] View not found: I:\sulis\webp\2025.04.30(2)\app\views\classes/edit.php
+[01-May-2025 04:29:09 Europe/Berlin] View not found: I:\sulis\webp\2025.04.30(2)\app\views\classes/edit.php
+[01-May-2025 04:32:39 Europe/Berlin] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'year' cannot be null
+[01-May-2025 04:33:46 Europe/Berlin] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'year' cannot be null
